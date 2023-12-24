@@ -1,0 +1,13 @@
+.mb-2{
+    text-align: center;
+}
+
+/*alertas formulario*/
+
+.ok {
+    background-color: lawngreen;
+}
+
+.bad {
+    background-color: red;
+}
