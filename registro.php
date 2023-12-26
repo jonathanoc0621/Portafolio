@@ -12,18 +12,22 @@ if (isset($_POST['btn1'])) {
 		$consulta = "INSERT INTO `user`( nombre, apellido, correo, telefono) VALUES ('$nombre','$apellido','$correo','$telefono')";
 		$resultado = mysqli_query($conexion, $consulta);
 		if ($resultado) {
-			?>
+?>
 			<h3 class="ok">!Te has registrado correctamente!</h3>
-			<?php
-        }  else {
-			?>
+		<?php
+		} else {
+		?>
 			<h3 class="bad">!ups ha ocurrido un error!</h3>
-			<?php	
-		  }
-		}  else {
-			?>
-			<h3 class="bad">!Por favor complete los campos!</h3>
-			<?php
-    }    
+		<?php
+		}
+	} else {
+		?>
+		<h3 class="bad">!Por favor complete los campos!</h3>
+<?php
+	}
 }
+
+
+
+
 ?>

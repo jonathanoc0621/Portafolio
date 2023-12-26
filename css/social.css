@@ -1,0 +1,55 @@
+.navegation {
+    background-color: aqua;
+    height: auto;
+    text-align: center;
+    }
+
+
+.cuadro {
+    box-sizing: border-box;    
+    color: white;
+    display: block;
+    font-family: textos;
+    font-size: 16px;
+    font-weight: 400;
+    height: 808.359xp;
+    line-height: 27.2px;
+    margin-bottom: 0px;
+    text-align: justify;
+    text-size-adjust: 100%;
+    width: 317.984xp;
+    -webkit-tap-highlight-color: rgb(233, 243, 243);
+}
+
+
+*{box-sizing:border-box;}
+
+		.container{
+			width:95%;
+			max-width:900px;
+			padding:32px 64px;
+			margin:auto;
+		}
+
+		.social{
+			
+			width:48px;
+			position:fixed;
+			top:50px;
+			right:0;
+		}
+
+		/* Extra centrado vertical*/
+
+		.social{
+			/*border:1px solid #000;*/
+			top:50%;
+			height:205px;
+        }
+			/*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+
+.textarea {
+    text-align: center;
+    background-color: aqua;
+    border-top: red;
+}

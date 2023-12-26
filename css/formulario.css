@@ -1,0 +1,21 @@
+.mb-2{
+    text-align: center;
+    width: 0xp;
+    height: 0xp;
+}
+
+.mb-3{
+    text-align: center;
+}
+
+/*alertas formulario*/
+
+.ok {
+    background-color: lawngreen;
+    border: 1cm;
+}
+
+.bad {
+    background-color: red;  
+    border: 1cm;
+}
