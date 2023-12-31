@@ -154,10 +154,10 @@
                         </b></td>
                 </tr>
                 <tr>
-                    <td> " . $consulta['nombre'] . "</td>
-                    <td> " . $consulta['apellido'] . "</td>
-                    <td> " . $consulta['correo'] . "</td>
-                    <td> " . $consulta['telefono'] . "</td>
+                    <td> " . $consulta['Nombre'] . "</td>
+                    <td> " . $consulta['Apellido'] . "</td>
+                    <td> " . $consulta['Correo'] . "</td>
+                    <td> " . $consulta['Telefono'] . "</td>
                 </tr>
             </table>
             ";
