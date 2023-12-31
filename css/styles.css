@@ -151,6 +151,7 @@ font-size: 18px;
     margin-left: auto;
     margin-right: auto;
     list-style: none;
+    width: 90%;
 }
 
 .skills-text {
@@ -187,6 +188,7 @@ font-size: 18px;
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
+    width: 90%;
 }    
 
 .Works-item {
