@@ -16,23 +16,12 @@
     <link rel="stylesheet" href="icon/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <script type="text/javascript">
-        window.onload = function() {
-            (function(d, script) {
-                script = d.createElement('script');
-                script.type = 'text/javascript';
-                script.async = true;
-                script.src = 'https://w.app/widget-v1/BOic9F.js';
-                d.getElementsByTagName('head')[0].appendChild(script);
-            }(document));
-        };
-    </script>
 </head>
 
 <body>
     <!--navegation-->
     <header class="header">
-        <nav class="navbar navbar-expand-lg" style="background-color: #56e6dd;">
+        <nav class="navbar navbar-expand-lg" style="background-color: #050a0a;">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"></a>
                 <img src="img/logo.png" alt="logo">
@@ -44,18 +33,18 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html"><b>PERFIL</b></a>
+                            <a class="nav-link active" aria-current="page" href="index.html" style="color: white;"><b>PERFIL</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="formulario.php"><b>FORMULARIO</b></a>
+                            <a class="nav-link active" href="formulario.php" style="color: white;"><b>FORMULARIO</b></a>
                         </li>
                         <li class="nav-item dropdown ">
                             <a class="nav-link  active dropdown-toggle" href="actividades.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                                data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
                                 <b>ESTUDIO</b>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="actividades.html"><b>ESTUDIOS</b></a></li>
+                                <li><a class="dropdown-item"  href="actividades.html" ><b>ESTUDIOS</></a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -74,7 +63,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="https://github.com/jonathanoc0621/Portafolio"
-                                target="_blank"><b>REPOSITORIO</b></a>
+                                target="_blank" style="color: white;"><b>REPOSITORIO</b></a>
                         </li>
                     </ul>
                     <div>
@@ -196,12 +185,12 @@
                 </figure>
             </div>
             <div class="box">
-                <h2>SOBRE NOSOTROS</h2>
+                <h2>SOLUCIONES MODERNAS</h2>
                 <p style="font-size: 18px;"><samp class="icon-pinboard1"><b>DESAROLLO DE PAGINAS WEB</b></samp></p>
                 <p style="font-size: 18px;"><samp class="icon-pinboard1"></samp><b>TODO LO RELACIONADO CON SISTEMAS OPERATIVOS Y SOTFWARE</b></samp></p>
             </div>
             <div class="box">
-                <h2>Contactame</h2>
+                <h2>CONTACTAME</h2>
                 <div class="red-social">
                     <p href="https://api.whatsapp.com/send?phone=+573115634497&text=Bienvenido+a+mi+chat+en+que+te+puedo+ayudar😀" style="font-size: 18px;"><samp class="icon-whatsapp"><b> CEL: 3115634497</b></samp></p>
                     <p href="https://www.google.com/maps/place/Funza,+Cundinamarca/@4.7151983,-74.228414,14z/data=!3m1!4b1!4m6!3m5!1s0x8e3f82a935a650d5:0x7bcbcfe2307bb094!8m2!3d4.7176677!4d-74.2118741!16s%2Fm%2F02qnknv?hl=es&entry=ttu" style="font-size: 18px;"><samp class="icon-zingat"><b> FUNZA - CUNDINAMARCA</b></samp></p>
@@ -215,6 +204,7 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="wap.js"></script>
 </body>
 
 </html>

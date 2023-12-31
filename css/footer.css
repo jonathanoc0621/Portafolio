@@ -8,7 +8,7 @@
 /*:::::Pie de Pagina*/
 .pie-pagina{
     width: 100%;
-    background-color: #56e6dd;
+    background-color: #000000;
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -27,7 +27,7 @@
     align-items: center;
 }
 .pie-pagina .grupo-1 .box figure img{
-    width: 250px;
+    width: 180px;
 }
 .pie-pagina .grupo-1 .box h2{
     color: #fff;
@@ -35,7 +35,7 @@
     font-size: 20px;
 }
 .pie-pagina .grupo-1 .box p{
-    color: #0e0d0d;
+    color: white;
     margin-bottom: 10px;
 }
 .icon-microsoftoutlook:before {
