@@ -25,25 +25,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Indie Flower', cursive;
 }
 .pie-pagina .grupo-1 .box figure img{
-    width: 180px;
+    width: 300px;
 }
 .pie-pagina .grupo-1 .box h2{
     color: #fff;
     margin-bottom: 25px;
     font-size: 20px;
+    font-family: 'Indie Flower', cursive;
 }
-.pie-pagina .grupo-1 .box p{
+.pie-pagina .grupo-1 .box p b{
     color: white;
     margin-bottom: 10px;
+    font-family: 'Indie Flower', cursive;
 }
 .icon-microsoftoutlook:before {
     content: "\e907";
     color: #0072c6;
   }
 
-.pie-pagina .grupo-1 .red-social a{
+.pie-pagina .grupo-1 .red-social a {
     display: inline-block;
     text-decoration: none;
     width: 45px;
@@ -54,18 +57,26 @@
     background-color: #0d2033;
     text-align: center;
     transition: all 300ms ease;
+    font-family: 'Indie Flower', cursive;
 }
 .pie-pagina .grupo-1 .red-social a:hover{
     color: aqua;
 }
+
+.pie-pagina .grupo-1 .red-social b{
+    font-family: 'Indie Flower', cursive;
+}
+
 .pie-pagina .grupo-2{
     background-color: #0a1a2a;
     padding: 15px 10px;
     text-align: center;
     color: #fff;
+    
 }
-.pie-pagina .grupo-2 small{
+.pie-pagina .grupo-2 small {
     font-size: 15px;
+    font-family: 'Indie Flower', cursive;
 }
 @media screen and (max-width:800px){
     .pie-pagina .grupo-1{

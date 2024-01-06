@@ -11,11 +11,11 @@
 /*alertas formulario*/
 
 .ok {
-    background-color: lawngreen;
     border: 1cm;
+    text-align: center;
 }
 
-.bad {
-    background-color: red;  
+.bad {  
     border: 1cm;
+    text-align: center;
 }

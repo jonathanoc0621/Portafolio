@@ -13,16 +13,16 @@ if (isset($_POST['btn1'])) {
 		$resultado = mysqli_query($conexion, $consulta);
 		if ($resultado) {
 ?>
-			<h3 class="ok">!Te has registrado correctamente!</h3>
+			<h3 class="ok" style="font-family: 'Permanent Marker', cursive;">!Te has registrado correctamente!</h3>
 		<?php
 		} else {
 		?>
-			<h3 class="bad">!ups ha ocurrido un error!</h3>
+			<h3 class="bad" style="font-family: 'Permanent Marker', cursive;">!ups ha ocurrido un error!</h3>
 		<?php
 		}
 	} else {
 		?>
-		<h3 class="bad">!Por favor complete los campos!</h3>
+		<h3 class="bad" style="font-family: 'Permanent Marker', cursive;">!Por favor complete los campos!</h3>
 <?php
 	}
 }
